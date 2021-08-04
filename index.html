@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <title>Programación</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#programacion">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lenguajes">Lenguajes de programación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tipado">Fuerte tipado VS Debil tipado</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#actualidad">Lenguajes en la actualidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mas">Saber más</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron light" id="programacion">
+        <h1 class="display-4">La Programación</h1>
+        <br>
+        <p class="" style="text-align: center;">En la actualidad, los profesionales de programación son de los perfiles
+            más solicitados en el mercado laboral ya que el sector del desarrollo de software y web está en continuo
+            proceso evolutivo, transformando a su vez otros sectores con sus avances.</p>
+        <p class="" style="text-align: center; color: #000 !important;">Pero, <b>¿Qué es la programación?</b></p>
+        <p class="" style="text-align: center;">Este término puede utilizarse en muchos contextos, ya que se refiere a
+            organizar una secuencia de pasos ordenados a seguir para hacer cierta cosa.</p>
+        <p class="" style="text-align: center;">En el ámbito de la informática, la programación refiere a la acción de
+            crear programas o aplicaciones a través del desarrollo de un código fuente, que se basa en el conjunto de
+            instrucciones que sigue el ordenador para ejecutar un programa.</p>
+
+    </div>
+
+    <div class="dark" id="lenguajes">
+
+        <h2 class="display-6 white">Lenguajes de Programación</h2>
+        <br>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+
+                <p class="white">Así como los idiomas que utilizan los humanos para comunicarse, los ordenadores tienen
+                    sus propios lenguajes de programación.</p>
+                <p class="white">El lenguaje de programación es un idioma artificial prediseñado formado por signos,
+                    palabras y símbolos que permite la comunicación entre el programador y el ordenador, es decir, el
+                    programador especifica las instrucciones que debe llevar a cabo el ordenador. Este código es creado,
+                    diseñado, codificado, mantenido y depurado a través de la programación.</p>
+                <p class="white">Pueden ser de bajo nivel o de alto nivel. La diferencia es que el lenguaje de bajo
+                    nivel es cercano a los idiomas de las máquinas mientras que el
+                    lenguaje de alto nivel está más cerca del entendimiento e idioma humano.</p>
+                <p class="white">Sin el lenguaje de programación, programar sería imposible, debido a que no existirían
+                    reglas (tanto semánticas como sintácticas), expresiones (como la estructura y el significado de
+                    todos los elementos que los componen) ni una forma establecida sobre cómo deben “hablar” el
+                    programador y la máquina.</p>
+
+            </div>
+            <div class="col-xs-12 col-md-6">
+
+                <img src="./assets/img/img-2.jpg" alt="" class="img-1">
+
+                <br>
+                <br>
+
+                <div id="publicidad-1">
+                    <img src="./assets/img/publi-1.png" class="publi-1" alt="">
+                    <button type="button" id="boton-1" class="btn btn-primary">Cerrar</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="light" id="tipado">
+        <h2 class="display-6"><b>Fuerte tipado VS Debil tipado</b></h2>
+
+        <br>
+
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+
+                <br>
+
+                <h2 class="display-8">Fuerte tipado</h2>
+
+                <p>Se nos obliga a indicar el tipo de dato al declarar la
+                    variable. Además, dicho tipo no puede ser cambiado una vez definida la variable nunca. No se podrá
+                    operar entre distintos tipos de forma implícita, nosotros como desarrolladores tendremos que hacer
+                    las conversiones necesarias de forma explícita.</p>
+                <p>Las ventajas del tipado fuerte es que es código más expresivo ahora sí podremos saber de qué tipo
+                    espera un argumento una función. También cometeremos menos errores, porque éste detecta errores
+                    antes que llegue al usuario final.</p>
+                <br>
+
+                <div class="fragment">
+                    <p><span class="orange">int</span><span class="white"> resultado = </span><span class="blue">
+                            3</span><span class="white">;</span></p>
+                    <p><span class="white">resultado = </span><span class="white">resultado</span><span class="white"> +
+                        </span><span class="green">"hola"</span><span class="white">;</span></p>
+
+                    <p><span class="gray"># TypeError: unsupported operand type(s) for +: 'int' and 'str'</span></p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-xs-12 col-md-6">
+
+                <br>
+
+                <h2 class="display-8">Debil tipado</h2>
+
+                <p>No indicamos, la mayoría de las veces, el tipo de variable. Por ello, la gran diferencia entre el
+                    débil y el fuerte es que aquí podemos asignar, por ejemplo, un valor entero a una variable que
+                    anteriormente no tenía una cadena.</p>
+                <p>La ventaja del tipado débil es que es mucho más rápido de desarollar, pero una clara desventaja es
+                    que podemos cometemos muchos más errores si no llevamos cuidado. Un lenguaje que usa tipado débil,
+                    por ejemplo, es Javascript.</p>
+
+                <br>
+
+                <div class="fragment">
+                    <p><span class="orange">const</span><span class="white"> resultado = </span><span class="blue"> 3
+                        </span><span class="white"> + </span><span class="green">"hola"</span><span
+                            class="white">;</span><span class="gray">&nbsp&nbsp//"3hola"</span></p>
+
+                    <p><span class="gray">/* al intentar sumar un string y un número, el lenguaje intenta
+                            cambiar los tipos para poder realizar la operación */</span></p>
+
+                    <br>
+
+                    <p><span class="orange">const</span><span class="white"> resultado2 = </span><span class="blue"> 5
+                        </span><span class="white"> + </span><span class="green">"23"</span><span
+                            class="white">;</span><span class="gray">&nbsp&nbsp//"523"</span>
+                    </p>
+
+                    <p><span class="gray">/* Aunque haya un número en la cadena de texto,
+                            el lenguaje lo suma como si fuesen cadenas los dos,
+                            por eso hay que llevar más cuidado con este tipo de
+                            programación, ya que puede llevar a resultados inesperados*/</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dark" id="actualidad">
+
+        <h2 class="display-6 white">Lenguajes de programación en la actualidad</h2>
+
+        <br>
+
+        <p class="white">A continuación se muestra una lista enumerada de los lenguajes de programación más importantes
+            en la actualidad.</p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/javascript.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">1.&nbsp&nbspJavascript</h5>
+                            <p>Debil tipado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/python.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">2.&nbsp&nbspPython</h5>
+                            <p>Fuerte tipado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/java.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">3.&nbsp&nbspJava</h5>
+                            <p>Fuerte tipado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/go.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">4.&nbsp&nbspGo</h5>
+                            <p>Fuerte tipado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/cshar.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">5.&nbsp&nbspC#</h5>
+                            <p>Fuerte tipado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/typescript.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">6.&nbsp&nbspTypescript</h5>
+                            <p>Fuerte tipado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/kotlin.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">7.&nbsp&nbspKothin</h5>
+                            <p>Fuerte tipado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/img/php.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">8.&nbsp&nbspPHP</h5>
+                            <p>Debil tipado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="light" id="mas">
+        <div class="row">
+            <div class="col-xs-12 col-lg-6">
+
+                <h4><b>¿Quieres saber más? Contáctanos</b></h4>
+                <br>
+        
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Ingresa tu email">
+                        <small id="emailHelp" class="form-text text-muted">No compartiremos tu email con nadie más.</small>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Mensaje</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Escribe tu mensaje">
+                    </div>
+                    <br>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+
+            </div>
+
+            <div class="col-xs-12 col-lg-6">
+
+                <div id="publicidad-2">
+                    <img src="./assets/img/publicidad-2.png" class="publi-2" alt=""><br>
+                    <button type="button" id="boton-2" class="btn btn-primary">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        Andres Guanipa - 2021
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,193 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-size: 112%;
+}
+
+footer {
+    background-color: #353A3F;
+    width: 100%;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 15px;
+}
+
+.col{
+    padding-top: 2%;
+}
+
+.col-5{
+    margin: 2%;
+}
+
+.name {
+    text-align: center;
+}
+
+.display-4 {
+    text-align: center;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 10%;
+}
+
+.light{
+    margin: 1% 5% 2% 5%;
+}
+
+.dark{
+    width: 100%;
+    padding: 1% 5% 2% 5%;
+    background-color: #212529;
+}
+
+.fragment{
+    background-color: #353A3F;
+    padding: 15px;
+}
+
+.green{
+    color: #6a8759;
+}
+
+.orange{
+    color: #cb7832;
+}
+
+.blue{
+    color: #6896ba;
+}
+
+.gray{
+    color: #7f7f7f;
+}
+
+span{
+    font-family: monospace !important;
+}
+
+.white{
+    color: white;
+}
+
+.img-1{
+    height: 360px;
+    width: 400px;
+}
+
+.publi-1{
+    width: 400px;
+    height: 80px;
+}
+
+.publi-1:hover{
+    cursor: pointer;
+    width: 405px;
+    height: 80px;
+}
+
+.publi-2{
+    width: 600px;
+    height: 360px;
+}
+
+.publi-2:hover{
+    cursor: pointer;
+    width: 610px;
+    height: 360px;
+}
+
+
+@media only screen and (max-width:1000px) {
+
+    body{
+        overflow-y: auto;
+        padding-bottom: 15%;
+
+    }
+
+    .jumbotron{
+        padding: 5%;
+    }
+
+    form {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 5%;
+        padding: 2%;
+    }
+
+    .img-1{
+        height: 306px;
+        width: 340px;
+    }
+    
+    .publi-1{
+        width: 340px;
+        height: 68px;
+    }
+    
+    .publi-1:hover{
+        cursor: pointer;
+        width: 344px;
+        height: 68px;
+    }
+
+
+} 
+
+@media only screen and (max-width:1245px) {
+
+    .publi-2{
+        width: 500px;
+        height: 300px;
+    }
+    
+    .publi-2:hover{
+        cursor: pointer;
+        width: 610px;
+        height: 360px;
+    }
+
+} 
+
+@media only screen and (max-width:540px) {
+
+    .publi-2{
+        width: 400px;
+        height: 240px;
+    }
+    
+    .publi-2:hover{
+        cursor: pointer;
+        width: 410px;
+        height: 240px;
+    }
+
+}
+
+@media only screen and (max-width:435px) {
+
+    .publi-2{
+        width: 330px;
+        height: 198px;
+    }
+    
+    .publi-2:hover{
+        cursor: pointer;
+        width: 336px;
+        height: 198px;
+    }
+
+    p{
+        font-size: 90%;
+    }
+
+} 
